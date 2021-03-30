@@ -12,13 +12,13 @@ function answers() {
     else {
       document.getElementById('one').style.backgroundColor = '#ff0000';
     };
-	if (second == 20) {
+	if (second == 32) {
       document.getElementById('two').style.backgroundColor = '#ffffff';
     }
     else {
       document.getElementById('two').style.backgroundColor = '#ff0000';
     }	
-	if (third == 32) {
+	if (third == 80) {
       document.getElementById('three').style.backgroundColor = '#ffffff';
     }
     else {
@@ -42,7 +42,7 @@ function answers() {
     else {
       document.getElementById('six').style.backgroundColor = '#ff0000';
     }	
-	if (first == 6 && second == 20 && third == 32 && fourth == 94 && fifth == 204 && sixth == 2021) {
+	if (first == 6 && second == 32 && third == 80 && fourth == 94 && fifth == 204 && sixth == 2021) {
      document.getElementById('winners').style.opacity = '1';
 		confetti.start()
     }		
